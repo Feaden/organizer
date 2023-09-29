@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Method</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <h1>Result</h1>
+
+    <p th:text="'id: ' + ${user.id}" />
+    <p th:text="'name: ' + ${user.name}" />
+    <p th:text="'email: ' + ${user.email}" />
+    <a href="/start"> Submit another user</a>
+
+</body>
+
+</html>
